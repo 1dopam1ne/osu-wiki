@@ -1,4 +1,4 @@
-# Beatmap editor timelines
+# Временная шкала
 
 В [редакторе карт](/wiki/Client/Beatmap_editor) есть три различные временные шкалы, с которыми может столкнуться маппер. Эта статья объяснит как функционирует каждая из них.
 
@@ -31,17 +31,17 @@ The timeline itself uses a few tick marks that have various meanings.
 
 On the right, you can adjust the playback rate from `100%`, to `75%`, `50%`, or `25%`.
 
-## Hit Objects
+## Игровые объекты
 
 There are two different kinds of hit objects timelines depending on which game mode the mapper is using.
 
-### osu!, osu!taiko, and osu!catch
+### osu!, osu!taiko, и osu!catch
 
 ![Hit Objects Timeline in osu!, osu!taiko, and osu!catch](/wiki/shared/BE_NTL.jpg "This shows the timeline for hit objects with respect to the beat snap divisor and timestamp.")
 
 In [compose](/wiki/Client/Beatmap_editor/Compose) mode, this timeline is underneath the `Compose` tab for any game mode except for [osu!mania](/wiki/Game_mode/osu!mania).
 
-| Name | Description |
+| Название | Описание |
 | :-- | :-- |
 | `+`/`-` buttons | Increase/Decrease timeline zoom. |
 | Double white vertical lines | This shows the current timestamp with respect to the hit object timeline. |
@@ -60,13 +60,13 @@ The box on the left is a horizontal bar chart that displays the note intensity. 
 
 In the centre is the actual playfield. The playfield is made up of two parts: lines and notes.
 
-| Line Colour | Description |
+| Line Colour | Описание |
 | :-- | :-- |
 | Thick White | Full measure |
 | White | Common Time |
 | Green | Current timestamp/[Judgement](/wiki/Gameplay/Judgement) line |
 
-| Note Colour | Description |
+| Note Colour | Описание |
 | :-- | :-- |
 | Blue | Selected note(s) |
 | White/Pink/Yellow | Unselected note colours |
@@ -90,7 +90,7 @@ The centre of the design timeline shows the "keyframes" of the selected sprite.
 
 The keyframe control adds or removes anchor points. These anchor points set the start and end times for how a sprite should be storyboarded.
 
-| Name | Description |
+| Название | Описание |
 | :-- | :-- |
 | `+`/`-` | Add/Delete anchor points for the selected transformation. |
 | `Left`/`Right` arrows | Skip backwards/forwards to the nearest anchor point of the selected transformation. |
@@ -105,7 +105,7 @@ The timing timeline is located underneath the [`Timing`](/wiki/Client/Beatmap_ed
 
 ### Timing Timeline
 
-| Name | Description |
+| Название | Описание |
 | :-- | :-- |
 | `+`/`-` buttons on left | Increase/Decrease timeline zoom. |
 
@@ -117,7 +117,7 @@ The metronome set plays a constant tick sound at the given BPM. This doubles as 
 
 ### Flag Colours
 
-| Colour | Description |
+| Цвет | Описание |
 | :-- | :-- |
 | White | Timing Points. Use new BPM value. (Red on Song Timeline) |
 | Blue | Inherited Points. Slider speed adjuster based on Timing Points' BPM. (Green on Song Timeline) |
